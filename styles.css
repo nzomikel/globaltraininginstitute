@@ -1,0 +1,59 @@
+body, html {margin: 0; padding: 0}
+
+div.container {
+/* width: 100%; */
+border: 1px solid gray;
+}
+
+header, footer {
+padding: 1em;
+color: white;
+background-color: rgb(255, 153, 0);
+clear: left;
+text-align: center;
+}
+
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgb(51, 51, 51);
+}
+
+li {
+float: right;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: rgb(128, 0, 0);
+}
+
+article {
+margin-left: 170px;
+border-left: 1px solid gray;
+padding: 1em;
+overflow: hidden;
+}
+
+#footer {
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
+
+
+  #addressForm {
+    padding-bottom: 150px;
+  }
+

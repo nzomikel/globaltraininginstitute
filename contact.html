@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact Us</title>
+</head>
+
+<body id="contact_us">
+
+  <div class="container">
+
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <h1 class="header"></h1>
+    
+      <!-- Displaying order summary in the form of tables -->
+      <h2>Fill in your Contact Information</h2>
+
+      <br>
+      
+        <!-- <h2>Contact Details</h2> -->
+
+        <!-- Adding form to submit address and credit card details
+         before submit it will call the above defined validate method
+         to check if it passes client side validations
+         once it passes then it takes to the thanks.html page  -->
+        <form id="addressForm" action="thanks.html" onsubmit="return validate()">
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="first and last name" placeholder="Name..">
+
+          <label for="lstreet">Street</label>
+          <input type="text" id="lstreet" name="lstreet" placeholder="Street..">
+
+          <label for="lcity">City</label>
+          <input type="text" id="lcity" name="lcity" placeholder="City..">
+
+          <label for="lstate">State/Province</label>
+          <input type="text" id="lstate" name="lstate" placeholder="State/Province..">
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">USA</option>
+            <option value="canada">Other</option>
+
+            <select name="" id=""></select>
+            <label for="Telephone Type">Telephone</label>
+            <select id="TelType" name="Telephone">
+              <option value="Mobile">Cellphone</option>
+              <option value="Homephone">Home Phone</option>
+              <option value="workphone">Work phone</option>
+            </select>
+
+
+
+            <input type="submit" value="Submit">
+
+        </form>
+      
+
+      
+    </div>
+    <div id="footer">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="payment.html">Payment</a></li>
+        </ul>
+      </nav>
+    
+      <footer>©2018 Global Training Institute</footer>
+    </div>
+</body>
+
+</html>

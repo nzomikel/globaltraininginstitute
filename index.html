@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<script src="library.js" type="text/javascript"></script>
+<title>Home</title>
+</head>
+<body>
+    <table id="npn" cellpadding="5" cellspacing="20">
+
+        <header>
+          <h1>Global Training Institute</h1>
+        </header>
+        <tr>
+          <!-- Company Hyperlinks -->
+          <td id="links" rowspan="4" valign="top">
+            <a href="#">Graduation Registration: 
+              Ends December 30, 2018
+            </a>
+            <br>
+            <br>
+            <a href="#" id="Graduation"></a>
+            <br>
+            <a href="#" id="Graduation"></a>
+            <!-- <a href="#" id="thanksGiving">Thanks Giving Sales</a> -->
+            <br>
+            <a href="#">Graduation date: 06/20/2019</a>
+    
+          </td>
+    
+          <!-- Days until New Year's Eve -->
+          <td id="daycell">
+    
+            <script type="text/javascript">
+              //< !--Hide from non - JavaScript browsers
+              var Today = new Date();
+              var ThisDay = Today.getDate();
+              var ThisMonth = Today.getMonth() + 1;
+              var ThisYear = Today.getFullYear();
+              var DaysLeft = NYEDays(Today);
+              var MonthTxt = new Array("", "January", "February", "March", "April", "May",
+                "June", "July", "August", "September", "October", "November", "December");
+                  document.write("Today is " + MonthTxt[ThisMonth] + " " + ThisDay + ", " + ThisYear + "<br />");
+              if (DaysLeft > 0) {
+                document.write("Only " + DaysLeft + " days until New Year's Eve");
+              } else {
+                document.write("IT'S NEW YEARS EVE!");
+              }
+              // Stop hiding -->
+              document.getElementById("Graduation registration").innerText = 'From Spetember 10 up to end of year';
+              document.getElementById("Graduation date").innerText = 'Summer';
+            </script>
+    
+          </td>
+        </tr>
+<div class="container">
+    <td id="logo">
+        
+<header>
+
+  <td id="logo">
+    
+</header>
+<a href="#"> <img src="grad_date.gif" alt="Graduate Date!" /></a>
+   </td>
+ <div id="footer">
+   <nav>
+  <ul>
+    <li><a href="index.html">Home Page</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+
+<footer>©2018 Global Training Institute</footer>
+  </div> 
+
+
+</div>
+
+</body>
+</html>
